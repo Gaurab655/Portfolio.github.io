@@ -1,0 +1,278 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #edf1fd;
+}
+.nav {
+  background-color: #044880;
+  height: 73px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ position: fixed;
+  /* position: fixed; */
+
+  /* gap: 200px; */
+
+  gap: 400px;
+}
+.G:hover{
+  color: #ff033e;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 48px;
+  width: 639px;
+  height: 24px;
+  left: 470px;
+}
+.home:hover{
+ 
+color: #ff033e;
+}
+ul {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  color: #edf1fd;
+  font-weight: 400;
+}
+.logo {
+  color: #ff033e;
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  width: 103px;
+  height: 36px;
+  left: 50px;
+  top: 18px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.wrapper {
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 150px;
+}
+.heropage>h2 {
+  font-size: 36px;
+  display: flex;
+  gap: 12px;
+}
+
+.name {
+  display: flex;
+}
+img {
+  width: 484.41px;
+  height: 567.48px;
+}
+.heropage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+}
+h3 {
+  
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;font-size: 20px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #3f4156;
+}
+button {
+  color: #f6eded;
+  background-color: #044880;
+  width: 158px;
+  /* border-color: #FF033E;     */
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  stroke: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 24px;
+}
+button:hover {
+  color: #ffff;
+  background-color: #ff033e;
+  width: 158px;
+  /* border-color: #FF033E;     */
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  stroke: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container {
+  padding-top: 32px;
+}
+.about {
+  display: flex;
+  margin-top: 95px;
+  gap: 120px;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 180px;
+  padding-right: 50px;
+}
+.content > p{
+  margin-top: 0;
+}
+.about_me {
+  margin-top: 150px;
+  margin-bottom: 32px;
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #044880;
+  height: 234px;
+  border-radius: 20px;
+
+  align-items: flex-start;
+  padding: 8px 8px;
+  gap: 32px;
+  width: 72px;
+}
+ h1 {
+   color: #3f4156;
+   display: flex;
+   gap: 12px;
+  margin-top: 150px;
+  justify-content: center;
+}
+.skills{
+  justify-content: center;
+}
+.ssec{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px ;
+  padding-right: 50px;
+  margin-top: 50px;
+  
+}
+.H,.c,.j,.g,.fi{
+  width: 200px;
+  height: 300px;
+}
+.H:hover,.H:hover,.c:hover,.j:hover,.g:hover,.fi:hover{
+  width: 220px;
+  height: 350px;
+transition: 1s;
+}
+.expimg{
+  margin-top: 50px;
+  padding-left: 150px;
+  display: flex;
+  gap: 127px;
+}
+.w_pics{
+  display: flex;
+justify-content: center;
+gap: 42px;
+margin-top: 50px;
+}
+.works>p{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.CONTACT{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+
+}
+.contacts>p{
+  display: flex;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.name_email{
+  
+width: 440px;
+height: 44px;
+background: #FFFFFF;
+border-radius: 8px;
+border:none;
+
+}
+.sub{
+height: 44px;
+background: #FFFFFF;
+border-radius: 8px;
+border:none;
+
+}
+.text{
+    
+
+height: 218px;
+background: #FFFFFF;
+border-radius: 8px;
+border:none;
+}
+.footer{
+  background-color: #044880;
+  height: 100px;
+  width: 100;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+.gmail,.phone{
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  
+}
+.phone_cont,.gmail_cont{
+  display: flex;
+align-items: center;
+gap: 24px;
+color: #edf1fd;
+}
